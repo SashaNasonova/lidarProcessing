@@ -38,10 +38,10 @@ Lidar processing routines using lastools.
 
 ## Pre-processing
 Getting the data ready is the most labour-intensive part of the process. ALS point cloud data is usually delivered in las or laz formats. The point cloud data needs to be checked for errors and pre-processed to the specifications below. 
-Format: .laz
-Classes: 1 (undefined), 2 (ground), 6 (buildings), 7 (noise), 9 (water) *6, 7, 9 are optional
-Horizontal datum: epsg:3005 
-Vertical datum:	cgvd2013
+- Format: .laz
+- Classes: 1 (undefined), 2 (ground), 6 (buildings), 7 (noise), 9 (water) *6, 7, 9 are optional
+- Horizontal datum: epsg:3005 
+- Vertical datum:	cgvd2013
 
 1.	Run lasinfo on each file (with repair headers flag), run las_tabulate to create a metadata table
 2.	Check projection (horizontal and vertical datum), point density, scan angle, acquisition date and point classification
