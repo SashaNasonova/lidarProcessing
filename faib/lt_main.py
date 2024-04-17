@@ -36,7 +36,7 @@ cores = '7'
 studyarea = 'woodlot0007' #name of the study area
 outfolder = r'E:\test_data' #parent directory of where outputs will be stored
 
-datloc = os.path.join(outfolder,'laz_bcalb') #location of the laz files
+datloc = os.path.join(outfolder,'laz') #location of the laz files
 prod_loc = os.path.join(outfolder,'products') #products directory
 
 ### Define logfile, stored in products directory
