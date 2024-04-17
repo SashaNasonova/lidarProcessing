@@ -1,12 +1,12 @@
 # lidarProcessing
 Lidar processing routines using lastools. 
 
-# 1.	Pre-processing
+## 1.	Pre-processing
 - Ensure correct projection (epsg:3005)
 - Ensure correct point classification 
 - Laz format
 
-# 2.	Point cloud processing
+## 2.	Point cloud processing
 - Run lasinfo to create per tile metadata (compute point density (-cd), repair headers (-repair) and compute the gps week (-gw)
 - Create pre-tiling shapefile
 - Index input data to use multicore processing
