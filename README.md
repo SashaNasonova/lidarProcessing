@@ -53,7 +53,7 @@ Sometimes the projection is not defined, request data acquisition report or chec
 
 The lt_prep.py script has the necessary functions to reproject and reclass. Please evaluate your dataset to determine what needs to be done. 
 
-## Executing with test data
+## Executing faib version with test data
 - run lt_main.py with test data first
 - change line 18 to the script location
 - change line 27 to lastools bin directory location
